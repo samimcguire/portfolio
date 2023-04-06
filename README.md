@@ -1,2 +1,0 @@
-# samimcguire.github.io
-Portfolio
