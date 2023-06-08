@@ -72,3 +72,11 @@
     flex: 1;
   }
 }
+
+#navbar-custom {
+  background-color: darkcyan;
+}
+
+#header {
+  background-image: linear-gradient(to bottom right, darkcyan, cyan);
+}
