@@ -1,3 +1,34 @@
+/* Font Formatting */
+h1, h2, h5 {
+  font-family: 'Papyrus';
+  color: #7C81EF;
+}
+
+h3, button, li, p {
+  font-family: 'Arial';
+}
+
+a {
+  font-family: 'Arial';
+  font-style: italic;
+  color: white;
+}
+
+#light-background {
+  color: black;
+}
+
+/* Background Colors */
+
+#navbar-custom {
+  background-color: white;
+}
+
+#header {
+  background-color: white;
+}
+
+/* From Bootstrap */
 .container {
   max-width: 960px;
 }
@@ -14,23 +45,4 @@
   .flex-md-equal > * {
     flex: 1;
   }
-}
-
-#navbar-custom {
-  background-color: white;
-}
-
-#header {
-  background-color: white;
-  font-family: 'Papyrus';
-  color: #7C81EF;
-}
-
-#title-font {
-  font-family: 'Papyrus';
-  color: #7C81EF;
-}
-
-#body-font {
-  font-family: 'Arial';
 }
