@@ -1,16 +1,15 @@
-# samimcguire.github.io
-Portfolio
+# Samantha McGuire's Portfolio
 
-Name: The name of the project. This name should be a descriptive, specific name for your project and what it does.  
+## Description of Project
 
-Description: A description of the project to let people know what the project is for. A list of features could also be added here as a sub-section. 
+Hi everyone and Welcome! :D This is my portfolio that 
 
-Installation: If needed, you could include steps to help people get started with your project.
+## How to Run
 
-Usage: You can include examples of how to use your project in this section and highlight the expected outcomes. 
+To run, please download the files and load the index.html in your browser.
 
-Support: You can tell people where to go for help regarding your project (example: email, Twitter, etc.). 
+## Roadmap of future improvements
 
-Roadmap: This section could include any future fixes or improvements you might be planning for your project. 
+There are no future improvements planned at this time.
 
-License information: For open source projects, you can describe how they’re licensed.  
+
