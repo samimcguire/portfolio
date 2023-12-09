@@ -165,7 +165,7 @@ const Projects = () => {
                 <Card.Img variant="top" id="image" />
                 <Card.Body className="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                   <Card.Title>
-                    <h2>Tierd Bad Bank</h2>
+                    <h2>Tiered Bad Bank</h2>
                   </Card.Title>
                   <Card.Text>
                     <p id="project-description">This project will build on the front-end Bad Bank project connecting it to a database and adding user authentication.</p>
