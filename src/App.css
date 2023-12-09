@@ -1,4 +1,8 @@
-/* Font Formatting */
+.App {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Font Formatting */
 h1, h2, h5 {
   font-family: 'Arial';
   color: #3498db;
@@ -21,28 +25,9 @@ a {
 /* Background Colors */
 
 #navbar-custom {
-  background-color: white;
+  font-weight: bold;
 }
 
 #header {
-  background-color: white;
-}
-
-/* From Bootstrap */
-.container {
-  max-width: 960px;
-}
-
-.icon-link > .bi {
-  width: .75em;
-  height: .75em;
-}
-
-.flex-equal > * {
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    flex: 1;
-  }
+  background-color: #3498db;
 }

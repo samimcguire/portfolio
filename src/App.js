@@ -1,21 +1,20 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Route, Routes } from 'react-router-dom';
-import { UserContext } from './context';
-import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 import Bio from './components/Bio';
 import Projects from './components/Projects';
+import Navigation from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <UserContext.Provider value={{users:[{name:'Samantha', email:'samimcguire@gmail.com', password:'secret', balance:100}]}}>
-        <Routes>
-          <Route path="/" element={<Bio />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </UserContext.Provider>
+      <Navigation />
+        <Router>
+          <Routes>
+            <Route path="/" element={<Bio />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </Router>
     </div>
   );
 }
