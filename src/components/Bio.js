@@ -5,12 +5,12 @@ const Bio = () => {
   return (
     <CardGroup>
       <Card>
-        <Card.Body class="my-3 py-3 text-center">
+        <Card.Body className="my-3 py-3 text-center">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-zJoy0SktPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Card.Body>
       </Card>
       <Card>
-        <Card.Body class="my-3 py-3 text-center">
+        <Card.Body className="my-3 py-3 text-center">
           <Card.Title >Introduction</Card.Title>
           <Card.Text>
             <p>Welcome! And thank you so much for taking the time to look through my portfolio.</p>
