@@ -1,7 +1,7 @@
 /* Font Formatting */
 h1, h2, h5 {
-  font-family: 'Papyrus';
-  color: #7C81EF;
+  font-family: 'Arial';
+  color: #3498db;
 }
 
 h3, button, li, p {
@@ -11,7 +11,7 @@ h3, button, li, p {
 a {
   font-family: 'Arial';
   font-style: italic;
-  color: #7C81EF;
+  color: #3498db;
 }
 
 #light-background {
