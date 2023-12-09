@@ -2,14 +2,9 @@
     font-family: Arial, sans-serif;
   }
 
-  /* Font Formatting */
-h1, h2, h5 {
-  font-family: 'Arial';
-  color: #3498db;
-}
 
-h3, button, li, p {
-  font-family: 'Arial';
+li {
+  list-style-type: none;
 }
 
 #accordian {
