@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Bio from './components/Bio';
 import Projects from './components/Projects';
 import Navigation from './components/Navbar';
