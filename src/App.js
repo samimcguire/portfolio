@@ -9,12 +9,10 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-        <Router>
           <Routes>
             <Route path="/" element={<Bio />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
-        </Router>
     </div>
   );
 }
