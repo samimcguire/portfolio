@@ -1,0 +1,53 @@
+/* Font Formatting */
+  h1, h2, h5, p {
+    font-family: 'Papyrus';
+    color: #7C81EF;
+  }
+  
+  h3, button, li, p {
+    font-family: 'Arial';
+  }
+  
+  a {
+    font-family: 'Arial';
+    font-style: italic;
+    color: #7C81EF;
+  }
+  
+  #light-background {
+    color: black;
+  }
+
+  #project-description {
+    font-family: 'Arial';
+    color: #7C81EF;
+  }
+  
+/* Background Colors */
+  
+  #navbar-custom {
+    background-color: white;
+  }
+  
+  #header {
+    background-color: white;
+  }
+  
+/* From Bootstrap */
+  .container {
+    max-width: 960px;
+  }
+  
+  .icon-link > .bi {
+    width: .75em;
+    height: .75em;
+  }
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }

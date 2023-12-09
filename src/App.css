@@ -22,6 +22,11 @@ a {
   color: black;
 }
 
+#project-description {
+  font-family: 'Arial';
+  color: #7C81EF;
+}
+
 /* Background Colors */
 
 #navbar-custom {
