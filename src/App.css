@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+/* Font Formatting */
+h1, h2, h5 {
+  font-family: 'Arial';
+  color: #3498db;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3, button, li, p {
+  font-family: 'Arial';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  font-family: 'Arial';
+  font-style: italic;
+  color: #3498db;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#light-background {
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+/* Background Colors */
+
+#navbar-custom {
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#header {
+  background-color: white;
+}
+
+/* From Bootstrap */
+.container {
+  max-width: 960px;
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+}
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
   }
 }
